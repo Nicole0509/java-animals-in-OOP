@@ -16,5 +16,9 @@ public class Dog {
         System.out.println(name + " is barking...");
     }
 
+    void dogEats(){
+        System.out.println(name + " is eating Meat !");
+    }
+
 }
 

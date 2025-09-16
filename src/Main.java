@@ -11,12 +11,14 @@ public class Main {
 
         dog.dogCredentials();
         dog.bark();
+        dog.dogEats();
 
         System.out.println("\n");
 
         newPuppy.dogCredentials();
         newPuppy.bark();
         newPuppy.puppyCry();
+        newPuppy.dogEats("Milk");
 
 
     }

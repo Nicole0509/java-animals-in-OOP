@@ -13,5 +13,9 @@ public class Puppy extends Dog{
     public void puppyCry(){
         System.out.println(name + " is crying...");
     }
+
+    public void dogEats(String specialFoods){
+        System.out.println(name + " is eating meat and " + specialFoods);
+    }
     
 }
