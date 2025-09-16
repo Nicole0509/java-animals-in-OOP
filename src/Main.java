@@ -5,10 +5,19 @@ public class Main {
         System.out.println("Welcome to Animals in OOP!");
         Dog dog = new Dog("Buddy",3);
 
-        Puppy newPuppy = new Puppy("Puppy",1);
+        Puppy newPuppy = new Puppy("Max",1);
 
+        System.out.println("\n");
+
+        dog.dogCredentials();
         dog.bark();
+
+        System.out.println("\n");
+
+        newPuppy.dogCredentials();
         newPuppy.bark();
         newPuppy.puppyCry();
+
+
     }
 }
