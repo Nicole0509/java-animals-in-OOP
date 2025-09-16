@@ -18,7 +18,7 @@ public class Main {
         newPuppy.dogCredentials();
         newPuppy.bark();
         newPuppy.puppyCry();
-        newPuppy.dogEats("Milk");
+        newPuppy.dogEats("Snacks");
 
 
     }
